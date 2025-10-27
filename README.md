@@ -30,7 +30,7 @@ Installation
 Clone the repository:
 
 
-git clone https://github.com/yourusername/kaggle-leaf-classification.gitcd kaggle-leaf-classification
+(https://www.kaggle.com/competitions/leaf-classification/overview)
 Install dependencies:
 
 
