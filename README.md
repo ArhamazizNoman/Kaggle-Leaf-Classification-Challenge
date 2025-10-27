@@ -1,6 +1,17 @@
 Kaggle Leaf Classification Challenge
+<img alt="License" src="https://img.shields.io/badge/license-MIT-blue.svg">
+
 This repository contains a Jupyter notebook implementing a solution to the Kaggle Leaf Classification Challenge. The project uses PyTorch to build a multi-modal neural network that combines Convolutional Neural Networks (CNN) for image processing, Recurrent Neural Networks (GRU) for shape features, and Feed-Forward Neural Networks (FFNN) for margin and texture features to classify leaf species.
 
+Table of Contents
+Features
+Dataset
+Requirements
+Installation
+Usage
+Results
+Contributing
+License
 Features
 Data preprocessing and visualization
 Multi-modal architecture integrating images and feature vectors
@@ -15,6 +26,15 @@ PyTorch
 NumPy, Pandas, Matplotlib
 scikit-image
 data_utils.py (provided in the challenge)
+Installation
+Clone the repository:
+
+
+git clone https://github.com/yourusername/kaggle-leaf-classification.gitcd kaggle-leaf-classification
+Install dependencies:
+
+
+pip install -r requirements.txt
 Usage
 Download the dataset from Kaggle
 Run the notebook cells sequentially
@@ -25,3 +45,7 @@ Achieves competitive performance on the Kaggle leaderboard with a multi-modal ap
 
 Contributing
 Feel free to fork and improve the model or add new features!
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
